@@ -1,0 +1,10 @@
+{
+  "run_id": "run_20250828_120721_e441deb1",
+  "since": "2022-01-01",
+  "universe_csv": "data/universe_fund.csv",
+  "workers": 10,
+  "top_n": 3,
+  "window_days": 252,
+  "universe_limit": 15,
+  "weight_scheme": "weight_mixed"
+}

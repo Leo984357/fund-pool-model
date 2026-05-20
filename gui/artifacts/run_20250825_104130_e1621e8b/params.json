@@ -1,0 +1,6 @@
+{
+  "run_id": "run_20250825_104130_e1621e8b",
+  "since": "2022-01-01",
+  "universe_csv": "data/universe_fund.csv",
+  "workers": 10
+}
