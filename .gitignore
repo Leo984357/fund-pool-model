@@ -44,6 +44,10 @@ db/*.db
 output/
 __pycache__/
 
+# Artifacts and run outputs
+gui/artifacts/
+artifacts/
+
 # OS
 .DS_Store
 Thumbs.db
