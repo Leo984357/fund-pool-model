@@ -38,7 +38,7 @@ htmlcov/
 .tox/
 
 # Data
-data/
+/data/
 db/*.sqlite
 db/*.db
 output/
@@ -47,6 +47,9 @@ __pycache__/
 # Artifacts and run outputs
 gui/artifacts/
 artifacts/
+
+# Logs
+*.log
 
 # OS
 .DS_Store
