@@ -16,7 +16,7 @@ import pandas as pd
 
 DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "db", "ashare_daily.sqlite")
 STOCK_CACHE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "db", "stock_list.csv")
-TOKEN = "218920c4902a9cb098fd0a5422510dbabc9b69b73e33032cbd8fe35d"
+TOKEN = os.environ.get("TUSHARE_TOKEN", "")
 API_URL = "http://api.waditu.com/dataapi"
 START_DATE = "20150101"
 END_DATE = "20251231"
